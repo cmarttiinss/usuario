@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Aula HTML/CSS </title>
+    <link rel="stylesheet" type="text/css" href="aulaex.CSS">
+</head>
+
+<style>
+    body{
+       font-family: Arial, sans-serif;
+       background: #eee;
+       margin: 0px;
+    }
+
+    /*----- Topo da minha pagina -----*/
+
+    .Topo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    .links_topo {
+        display: flex;
+        gap: 20 px;
+    }
+
+    .links_topo {
+        text-decoration: none;
+        color: #ffffff;
+        padding: 5px 10px;
+    }
+
+    .links_topo a:hover {
+        background-color: darkgoldenrod;
+        color: blue;
+    }
+
+    /* --- Conteúdo --- */
+    h2, h3, h4, h5, h6 {
+      color: #000000;
+      font-size: 25px;
+      margin-left: 10px;
+    }
+
+    p {
+      width: 50%;
+      background: #f5f5f5;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li::before {
+      content: "✔";
+      color: green;
+      margin-right: 8px;
+    }
+
+    /* --- Cards de jogos --- */
+    .game-card {
+      width: 50%;
+      background: #f5f5f5;
+      padding: 15px;
+      border-radius: 5px;
+      margin: 20px 10px;
+    }
+
+    .game-card img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+
+    /*----- Rodapé da Pagina -----*/
+    .rodape {
+        background-color: #000000;
+        color: #ffffff;
+        padding: 20px;
+        margin-top: 40px;
+        display: flex;
+        gap: 40px;
+        align-items: flex-start;
+    }
+
+    .rodape p {
+        background: transparent;
+        color: #ffffff;
+        width: auto;
+        font-size: 14px;
+        padding: 0;
+    }
+
+    .rodape a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .rodape a:hover {
+        text-decoration: underline;
+    }
+
+    .rodape_links {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        margin-left: auto;
+    }
+
+    .rodape_links_grupo {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        align-items: flex-start;
+    }
+
+    .rodape_links_grupo a {
+        white-space: nowrap;
+    }
+    
+</style>
+</head>
+
+<body>
+<!----- Cabeçalho ----->  
+    <header class="Topo">
+        <div class="logo_topo"> Techinical Games </div> <!--div para a logo do topo-->
+    <nav class="links_topo"> <!--div para os links do topo-->
+        <a href="#"> Home </a>
+        <a href="#"> Jogos </a>
+        <a href="#"> Sobre Nós</a>
+        <a href="#"> Contato </a>
+    </nav>
+    </header>
+    
+<h2> O Jogo irá rodar ?</h2> <!--Topico 1-->
+    <p> Verifique se o jogo irá correr no seu computador. Seleccionar o jogo para proceder à selecção dos componentes do computador.</p>
+    <h3> Podem rodar esses jogos populares em seu PC? </h3> <!--Topico 2-->
+    
+    <article class="game-card"> <!--class (game-card) = jogos do meu site-->
+    <img src="visualimageEX/gtav.png" alt=" Capa do Jogo GTA "> <!--imagem do jogo (GTA)-->
+        <h4> Grand Theft Auto V/ GTAV </h4> <!--Topico do Jogo (GTA)-->
+           <p> Desenvolvedor: Rockstar North </p>
+           <p> Distribuidor: Rockstar Games</p>
+           <p> Data de lançamento: 14 de abril 2015 (10 anos atrás) </p>
+           <p> A Nossa classificação dos utilizadores: 4.2/5 </p>
+           <p> Nivel de exigencia de hardware 1.2/10 - não exigente </p>
+           <p> Suporte para traçado de raios: Sem dados </p>
+
+        <h5> Requisitos oficiais do sistema de GTA V </h5><!--Topico de Requisitos do jogo (GTA)-->
+        <p>Para executar o GTA V, precisará de pelo menos 4 GB de RAM e 120 GB de espaço livre em disco. O jogo requer uma placa gráfica
+           mínima como a GeForce 9800 GT, mas para uma melhor experiência, os criadores recomendam a utilização de uma GeForce GTX 660.
+           Quanto ao teu CPU, um Core 2 Quad Q6600 é o mínimo, mas se quiseres aumentar as definições e desfrutar de uma jogabilidade mais
+           suave, aponta para um Core i5-3470 ou melhor.</p>
+
+           <h6> Requisitos Minimos: </h6> 
+           <ul> 
+              <li> Placa de vídeo: NVIDIA 9800 GT 1GB / AMD HD 4870 1GB (DX 10, 10.1, 11) </li>
+              <li> Processador: Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHz </li>
+              <li> Memória: 4 GB RAM </li>
+              <li> Disco rígido: 120 GB available space </li>
+              <li> Sistema operativo: Windows 10 64 Bit/ Windows 11 64 Bit </li>
+              <li> DirectX: Version 10</li> 
+           </ul>
+           
+           <h6> Requisitos Recomendados </h6>
+           <ul> 
+              <li> Placa de vídeo: NVIDIA GTX 660 2GB / AMD HD 7870 2GB </li>
+              <li> Processador: Intel Core i5-3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs) </li>
+              <li> Memoria: 8 GB RAM </li>
+              <li> Disco rigído: 120 GB available space </li>
+              <li> Sistema Operativo: Windows 10 64 Bit </li>
+              <li> DirectX: Version 10 </li>
+           </ul>
+    </article>
+        
+    <article class="game-card"><!--class (game-card) = jogos do meu site-->
+    <img src="" alt=" Capa do Jogo CYBERPUNK "><!--imagem do jogo (CYBERPUNK)-->
+        <h4> Cyberpunk 2077 </h4><!--Topico do Jogo (GTA)-->
+           <p>Desenvolvedor: CD Projekt RED </p>
+           <p> Distribuidor: CD Projekt RED </p>
+           <p> Data de lançamento: 10 de dezembro 2020 </p>
+           <p> A Nossa classificação dos utilizadores: 3.7/5 </p>
+           <p> Nivel de exigencia de hardware 5.8/10 - significamente exigente </p>
+           <p> Suporte para traçado de raios: Sim </p>
+
+        <h5> Requisitos oficiais do sistema de Cyberpunk 2077 </h5><!--Topico de Requisitos do jogo (CYBERPUNK))-->
+        <p>Para executar o Cyberpunk 2077, precisará de pelo menos 12 GB de RAM e 70 GB de espaço livre em disco. 
+           O jogo requer uma placa gráfica mínima como a Radeon RX 580, mas para uma melhor experiência, os criadores recomendam a utilização de uma GeForce RTX 2060.
+           Quanto ao teu CPU, um Core i7-6700 é o mínimo, mas se quiseres aumentar as definições e desfrutar de uma jogabilidade 
+           mais suave, aponta para um Core i7-12700 ou melhor.</p>
+
+        <h6> Requisitos Minimos: </h6>
+        <ul>
+           <li> Placa de video: Geforce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380, VRAM: 6 GB</li>
+           <li> Processador: Core i7-6700 or Ryzen 5 1600 </li>
+           <li> Memória: 12 GB </li>
+           <li> Disco rigido: 70GB SSD </li>
+           <li> Sistema Operativo: 64-bit Windowns 10 </li>
+           <li> DirectX: Direct 12 </li>
+        </ul>
+
+        <h6> Requisitos recomendados: </h6>
+        <ul>
+           <li> Placa de video: Geforce RTX 2060 Super or Radeon RX 5700 XT or Arc A770, VRAM: 8 GB </li>
+           <li> Processador: Core i7-12000 or Ryzen 7 7800X </li>
+           <li> Memoria: 16 GB </li>
+           <li> Disco rigido: 70GB SSD </li>
+           <li> Sistema Operativo: 64-bit Windowns 10 </li>
+           <li> DirectX: DirectX 12 </li>
+        </ul>
+    </article>
+
+    <article class="game-card"><!--class (game-card) = jogos do meu site-->
+    <img src="" alt=" Capa do jogo Read Dead Redemption 2 "><!--imagem do jogo (CYBERPUNK)-->
+        <h4> Read Dead Redemption 2 </h4><!--Topico do Jogo (RDR2)-->
+            <p> Desenvolvedor: Rockstar Games </p>
+            <p> Distribuidor: Rockstar Games </p>
+            <p> Data de lançamento: 5 de Novembro 2019 (6 anos atrás)</p>
+            <p> A nossa classificação dos utilizadores: 4.3/5 </p>
+            <p> Nivel de exigencia de hardware: 3.5/10 - bastante exigente </p>
+            <p> Suporte para traçado de raios: Não </p>
+        
+        <h5> Requisitos oficiais do sistema de Read Dead Redemption 2 </h5><!--Topico de Requisitos do jogo (RDR2)-->
+        <p>Para executar o Red Dead Redemption 2, precisará de pelo menos 8 GB de RAM e 150 GB de espaço livre em disco. 
+           O jogo requer uma placa gráfica mínima como a Radeon R9 280, mas para uma melhor experiência, os criadores recomendam a utilização de uma Radeon
+           RX 480. Quanto ao teu CPU, um Core i5-2500K é o mínimo, mas se quiseres aumentar as definições e desfrutar de uma 
+           jogabilidade mais suave, aponta para um Core i7-4770K ou melhor.</p>
+        
+        <h6> Requisitos Mínimos </h6>
+        <ul>   
+            <li> Placa de video: </li>
+            <li> Processador: Intel Core i5-2500/ AMD FX-6300 </li>
+            <li> Memória: 8GB de RAM </li>
+            <li> Disco Rigido: 150 GB avaible space </li>
+            <li> Sistema Operativo: Winsdows 7- Service Pack 1 (6.1.7601), 64-bit </li>
+            <li> DirectX: sem dados </li>
+        </ul> 
+        
+        <h6> Requisitos recomendados </h6>
+        <ul>
+            <li> Placa de video: Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB</li>
+            <li> Processador: Intel Core i7-4770K / AMD Ryzen 5 1500X</li>
+            <li> Memoria: 12 GB RAM </li>
+            <li> Disco Rigido: 150 GB available space </li>
+            <li> Sistema Operativo: Windows 10 - April 2018 Update (v1803), 64-bit </li>
+            <li> DirectX: Sem dados </li>
+        </ul>
+    </article>
+
+    <article class="game-card">
+    <img src="" alt="">
+        <h4> Counter-Strike 2 </h4>
+           <p> Desenvolvedor: Valve  </p>
+           <p> Distribuidor: Valve </p>
+           <p> Data de lançamento: 21 agosto 2012 (13 anos atrás) </p>
+           <p> A Nossa classificação dos utilizadores: 3.4/5 </p>
+           <p> Nivel de exigencia de hardware 1/10 - não exigente </p>
+           <p> Suporte para traçado de raios: Sem dados </p>
+    
+        <h5> Requisitos oficiais do sistema de Counter-Strike 2 </h5>
+           <p>Para executar o Counter-Strike 2, precisará de pelo menos 8 GB de RAM e 85 GB de espaço livre em disco. Quanto à sua CPU, um Core 
+            i5-750 é o mínimo.</p>  
+           
+        <h6> Requisitos Mínimos </h6>   
+        <ul>
+           <li> Placa de video: A placa de vídeo deve ter 1 GB ou mais e ser compatível com DirectX 11, com suporte para Shader Model 5.0.</li>
+           <li> Processador: 4 threads de hardware da CPU - Intel® Core™ i5-750 ou superior </li>
+           <li> Memoria: 8 GB RAM </li>
+           <li> Disco Rigido: 85 GB de espaço disponível </li>
+           <li> Sistema Operativo: Windows® 10 (64-bit) </li>
+           <li> DirectX: Version 11 </li>      
+        </ul>
+    </article>
+
+    <article class="game-card">
+    <img src="" alt="">
+        <h4> Fortnite </h4>
+           <p> Desenvolvedor:</p>
+           <p> Distribuidor:</p>
+           <p> Data de lançamento:</p>
+           <p> A nossa classificação dos utilizadores: </p>
+           <p> Nivel de Exigencia de hardware: </p>
+           <p> Suporte para traçado de raios: </p>
+        
+        <h5> Requisitos oficiais do sistema de Fortnite </h5>
+           <p>Para executar o Fortnite, precisará de pelo menos 8 GB de RAM e 30 GB de espaço livre em disco. O jogo requer uma placa gráfica
+            mínima como a HD Graphics 4000, mas para uma melhor experiência, os criadores recomendam a utilização de uma Radeon R9 280.
+            Quanto ao teu CPU, um Core i3-3225 é o mínimo, mas se quiseres aumentar as definições e desfrutar de uma jogabilidade mais suave, 
+            aponta para um Core i5-7300U ou melhor.</p>
+        
+        <h6> Requisitos Minimos </h6>
+        <ul>
+            <li> Placa de video: Intel HD 4000 or AMD Radeon Vega 8 </li>
+            <li> Processador: Core i3-3225 3.3 GHz </li>
+            <li> Memoria: 8 GB</li>
+            <li> Disco Rigido: 30 GB</li>
+            <li> Sistema Operativo: Windows 7/8/10/11 64-bit or Mac OS Mojave 10.14.6</li>
+            <li> DirectX: sem dados </li>
+        </ul>
+
+        <h6> Requisitod recomendados </h6>
+        <ul>
+            <li> Placa de video: Nvidia GTX 960, AMD R9 280 with 2 GB VRAM</li>
+            <li> Processador: Core i5-7300U 3.5 GHz, AMD Ryzen 3 3300U, or equivalent</li>
+            <li> Memoria: 8 GB</li>
+            <li> Disco Rigido: 30 GB</li>
+            <li> Sistema Operativo: Windows 10/11 64-bit </li>
+            <li> DirectX: 11 </li>
+        </ul>
+    </article>
+    
+    <article class="game-card">
+    <img src="" alt="">
+        <h4> Minecraft </h4>
+           <p> Desenvolvedor: Mojang </p>
+           <p> Distribuidor: Mojang </p>
+           <p> Data de lançamento: 18 de Novembro 2011 (14 anos atrás) </p>
+           <p> A nossa classificação de harware: 3.6/5 </p>
+           <p> Nivel de exigencia de hardware: 1/10 - não exigente </p>
+           <p> Suporte para traçado de raios: sem dados</p>
+        
+        <h5> Requisitos oficiais do sistema de Minecraft </h5>
+           <p>Para executar o Minecraft, precisará de pelo menos 4 GB de RAM e 1 GB de espaço livre em disco. 
+            O jogo requer uma placa gráfica mínima como a GeForce 410M, mas para uma melhor experiência, os criadores recomendam a utilização de uma GeForce 710A.
+            Quanto ao teu CPU, um Core i3-3210 é o mínimo, mas se quiseres aumentar as definições e desfrutar de uma jogabilidade 
+            mais suave, aponta para um Core i5-4690 ou melhor.</p>
+        
+        <h6> Requisitos mínimos </h6>
+        <ul>
+           <li> Placa de vídeo: Placa gráfica integrada: Intel HD Graphics 4000 (Ivy Bridge) ou AMD Radeon série R5 (linha Kaveri) com OpenGL 4.41. Placa gráfica dedicada: Nvidia GeForce série 400 ou AMD Radeon HD série 7000 com OpenGL 4.4. </li>
+           <li> Processador: Intel Core i3-3210 / AMD A8-7600 APU ou equivalente</li>
+           <li> Memória: 4 GB (2GB free) </li>
+           <li> Disco rígido: Aproximadamente 180 MB para dados do programa, embora os mundos possam aumentar drasticamente essa quantidade. 1 GB deve ser suficiente para uma quantidade normal de mapas, pacotes de recursos, etc. </li>
+           <li> Sistema operativo: Windows 7 ou posterior, OS X 10.9 Maverick, Linux: Qualquer distribuição de 2014 ou posterior</li>
+           <li> DirectX: sem dados</li>
+        </ul>
+
+        <h6> Requisitos recomendados </h6>
+        <ul>
+           <li> Placa de vídeo: GeForce série 700 ou AMD Radeon RX série 200 (excluindo chipsets integrados) com OpenGL 4.5</li>
+           <li> Processador: Intel Core i5-4690 / AMD A10-7800 ou equivalente</li>
+           <li> Memória: 8 GB (4 GB livres)</li>
+           <li> Disco rígido: 4 GB</li>
+           <li> Sistema operativo: Windows 10 ou posterior, OS X 10.12 Sierra, Linux: Qualquer distribuição de 2014 ou posterior</li>
+           <li> DirectX: sem dados</li>
+        </ul>
+    </article>
+
+    <article class="game-card">
+    <img src="" alt="">
+        <h4> Call of Duty: Warzone </h4>
+           <p> Desenvolvedor: Infinity Ward </p>
+           <p> Distribuidor:Activision </p>
+           <p> Data de lançamento: 10 de Março 2020 (6 anos atrás) </p>
+           <p> A nossa classificação dos utilizadores: 3.7/5</p>
+           <p> Nível de exigência de hardware: 3.2/10 - moderadamente exigente </p>
+           <p> Suporte para traçado de raios: sem dados</p>
+        
+        <h5> Requisitos oficiais do sistema de Call of Duty: Warzone </h5>
+           <p> Para executar o Call of Duty: Warzone, precisará de pelo menos 8 GB de RAM e 175 GB de espaço livre em disco. O jogo requer uma
+           placa gráfica mínima como a Radeon HD 7950, mas para uma melhor experiência, os criadores recomendam a utilização de uma
+           Radeon R9 390. Quanto ao teu CPU, um Core i3-4340 é o mínimo, mas se quiseres aumentar as definições e desfrutar de uma
+           jogabilidade mais suave, aponta para um Core i5-2500K ou melhor.</p>
+    </article>
+    
+      
+
+ <footer class="rodape">
+    <div class="rodape_logo">
+      <img src="" alt="Logo Techinical Games">
+    </div>
+    <div class="rodape_info">
+      <p>Encontrou um erro? Selecione-o e pressione Ctrl + Enter.</p>
+      <p>Jogos testados pelo <strong>notebookcheck.net</strong></p>
+    </div>
+    <div class="rodape_links">
+      <div class="rodape_links_grupo"
+      <a href="#"> Sobre nós </a>
+      <a href="#"> Contato </a>
+      <a href="#"> Politica de privacidade </a>
+      <a href="#"> Termos de Uso </a>
+      </div>
+    </div>
+    <div class="rodape_links2">
+        <div class="rodape_links_grupo"
+        <a href="#"> Twitter </a> 
+        <a href="#"> Instagram </a>
+        <a href="#"> Discord </a>
+        <a href="#"> Tik Tok </a>
+        
+    </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
