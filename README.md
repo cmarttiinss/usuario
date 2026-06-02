@@ -1,44 +1,132 @@
-<div align "center"> 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=120&section=header&text=Cau%C3%A3%20Martins&fontSize=52&fontColor=ffffff&fontAlignY=55&desc=Desenvolvedor%20em%20formação&descAlignY=80&descSize=16&animation=fadeIn" width="100%"/>
+<!-- BANNER ILUSTRATIVO -->
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║   ██████╗ ███████╗██╗   ██╗    ███████╗██╗   ██╗███████╗       ║
+║   ██╔══██╗██╔════╝██║   ██║    ██╔════╝╚██╗ ██╔╝██╔════╝       ║
+║   ██║  ██║█████╗  ██║   ██║    ███████╗ ╚████╔╝ ███████╗       ║
+║   ██║  ██║██╔══╝  ╚██╗ ██╔╝    ╚════██║  ╚██╔╝  ╚════██║       ║
+║   ██████╔╝███████╗ ╚████╔╝     ███████║   ██║   ███████║       ║
+║   ╚═════╝ ╚══════╝  ╚═══╝      ╚══════╝   ╚═╝   ╚══════╝       ║
+║                                                                  ║
+║          < Transformando lógica em soluções reais />            ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
 </div>
 
 ---
 
-<div align= "Center">
+## 👨‍💻 Sobre Mim
 
-  `ADS · Basilides de Godoy · São Paulo · 17 anos`
+<div align="center">
+
+| 🧩 Campo | 📋 Informação |
+|:---:|:---|
+| 🙋 **Nome** | Cauã Martins do Nascimento |
+| 📍 **Localização** | São Paulo, SP — Brasil |
+| 💼 **Área** | Desenvolvimento de Sistemas |
+| 🎯 **Status atual** | `estudando` · `construindo` · `evoluindo` |
 
 </div>
 
 ---
 
-<div align="left"
+## 🎓 Formação Acadêmica
 
-## -Sobre Mim 👤-
+<div align="center">
 
-```
-Nome        : Cauã Martins do Nascimento
-Idade       : 17 anos
-Localização : São Paulo, SP — Brasil
-Formação    : ADS @ Basilides de Godoy (Leopoldina)
-              Ensino Médio @ Colégio Piritubano
-Contato     : kakamartinsdonascimento@gmail.com
-Status      : estudando · construindo · evoluindo
-```
+| 🏫 Instituição | 📚 Curso | 🔖 Nível |
+|:---|:---|:---:|
+| 🏛️ **Basilides de Godoy** *(Leopoldina)* | Curso Modular ADS — Análise e Desenvolvimento de Sistemas | 🎓 Técnico |
+| 🏫 **Colégio Piritubano** | Ensino Médio | 📖 Médio |
+
+</div>
 
 ---
 
-<div align="left"
+## 🛠️ Tecnologias & Ferramentas
 
-<h1>Sumario 🗂️</h1> 
-<ul>
-  <li>🌐 Redes de Computadores</li>
-  <li>💻 Programação</li>
-  <li>🔧 Hardware e Manutenção</li>
-  <li>📁 Estrutura do Repositório </li>
-  <li>📌 Progresso Geral</li>
-</ul>
+<div align="center">
 
+### 💻 Linguagens de Programação
 
+| Tecnologia | Nível | Uso |
+|:---:|:---:|:---|
+| 🌐 **HTML** | ⭐⭐⭐⭐ | Estruturação de páginas web |
+| 🎨 **CSS** | ⭐⭐⭐⭐ | Estilização e layout de interfaces |
+| 🟨 **JavaScript** | ⭐⭐⭐ | Interatividade e lógica front-end |
+| 🐍 **Python** | ⭐⭐⭐ | Automação, scripts e back-end |
+| ⚙️ **C++** | ⭐⭐⭐ | Sistemas embarcados e programação de baixo nível |
 
+### 🗄️ Dados & Banco de Dados
 
+| Tecnologia | Nível | Uso |
+|:---:|:---:|:---|
+| 🗃️ **SQL** | ⭐⭐⭐ | Consultas e manipulação de dados |
+| 🏦 **Banco de Dados** | ⭐⭐⭐ | Modelagem, criação e gerenciamento |
+
+### 🔧 Sistemas & Ferramentas
+
+| Ferramenta | Nível | Uso |
+|:---:|:---:|:---|
+| 🤖 **Sistemas Embarcados** | ⭐⭐⭐ | Arduino, microcontroladores e IoT |
+| 📊 **Pacote Office** | ⭐⭐⭐⭐ | Word, Excel, PowerPoint |
+| 🐙 **Git & GitHub** | ⭐⭐⭐ | Controle de versão e repositórios |
+
+</div>
+
+---
+
+## 📂 Sobre Este Repositório
+
+<div align="center">
+
+| 📁 Categoria | 📝 Descrição |
+|:---|:---|
+| 🌐 **Web Development** | Projetos e exercícios de HTML, CSS e JavaScript |
+| 🐍 **Python** | Scripts, automações e projetos em Python |
+| ⚙️ **C++ / Embarcados** | Códigos para sistemas embarcados e microcontroladores |
+| 🗃️ **Banco de Dados / SQL** | Modelagens, queries e projetos de BD |
+| 📊 **Pacote Office** | Planilhas, documentos e apresentações acadêmicas |
+| 📚 **Atividades Escolares** | Tarefas, trabalhos e projetos desenvolvidos na escola |
+
+> 💡 **Este repositório é um portfólio acadêmico** — aqui você encontrará as atividades, projetos e aprendizados desenvolvidos ao longo da minha formação em Desenvolvimento de Sistemas.
+
+</div>
+
+---
+
+## 📬 Contato
+
+<div align="center">
+
+| 📡 Canal | 🔗 Endereço |
+|:---:|:---|
+| 📧 **E-mail** | [kakamartinsdonascimento@gmail.com](mailto:kakamartinsdonascimento@gmail.com) |
+| 🐙 **GitHub** | [@CauaMartins](https://github.com) |
+| 📍 **Localização** | São Paulo, SP — Brasil 🇧🇷 |
+
+</div>
+
+---
+
+<div align="center">
+
+```
+┌─────────────────────────────────────────────────┐
+│                                                 │
+│   "Todo expert já foi um dia um iniciante."     │
+│                                                 │
+│        estudando · construindo · evoluindo      │
+│                                                 │
+└─────────────────────────────────────────────────┘
+```
+
+*Feito com 💙 por **Cauã Martins do Nascimento** — São Paulo, Brasil*
+
+![Visitantes](https://visitor-badge.laobi.icu/badge?page_id=CauaMartins.CauaMartins)
+
+</div>
