@@ -21,7 +21,7 @@
 
 ## 👨‍💻 Sobre Mim
 
-<div align="center">
+<div align="left">
 
 | 🧩 Campo | 📋 Informação |
 |:---:|:---|
@@ -36,7 +36,7 @@
 
 ## 🎓 Formação Acadêmica
 
-<div align="center">
+<div align="left">
 
 | 🏫 Instituição | 📚 Curso | 🔖 Nível |
 |:---|:---|:---:|
@@ -49,7 +49,7 @@
 
 ## 🛠️ Tecnologias & Ferramentas
 
-<div align="center">
+<div align="left">
 
 ### 💻 Linguagens de Programação
 
@@ -82,7 +82,7 @@
 
 ## 📂 Sobre Este Repositório
 
-<div align="center">
+<div align="left">
 
 | 📁 Categoria | 📝 Descrição |
 |:---|:---|
@@ -101,7 +101,7 @@
 
 ## 📬 Contato
 
-<div align="center">
+<div align="left">
 
 | 📡 Canal | 🔗 Endereço |
 |:---:|:---|
@@ -113,7 +113,7 @@
 
 ---
 
-<div align="center">
+<div align="left">
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -125,7 +125,7 @@
 └─────────────────────────────────────────────────┘
 ```
 
-*Feito com 💙 por **Cauã Martins do Nascimento** — São Paulo, Brasil*
+*Feito Por **Cauã Martins do Nascimento** — São Paulo, Brasil*
 
 ![Visitantes](https://visitor-badge.laobi.icu/badge?page_id=CauaMartins.CauaMartins)
 
