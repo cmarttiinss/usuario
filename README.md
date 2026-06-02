@@ -1,45 +1,82 @@
-<div align "center"> 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:000000&height=120&section=header&text=Cau%C3%A3%20Martins&fontSize=52&fontColor=ffffff&fontAlignY=55&desc=Desenvolvedor%20em%20formação&descAlignY=80&descSize=16&animation=fadeIn" width="100%"/>
+# 👨‍💻 Cauã Martins do Nascimento
+
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200" alt="Desenvolvedor de Sistemas" width="100%">
+</p>
+
+<h3 align="center">
+🚀 Estudante de Desenvolvimento de Sistemas | HTML • CSS • Python • C++ • Sistemas Embarcados
+</h3>
+
+---
+
+## 📌 Sobre Mim
+
+| 🏷️ Informação | 📖 Detalhes |
+|------------|------------|
+| 👤 **Nome** | Cauã Martins do Nascimento |
+| 📍 **Localização** | São Paulo, SP — Brasil |
+| 🎯 **Status Atual** | Estudando · Construindo · Evoluindo |
+| 💻 **Área de Interesse** | Desenvolvimento Web, Programação, Sistemas Embarcados e Tecnologia |
+
+---
+
+## 🎓 Formação Acadêmica
+
+| 🎓 Curso | 🏫 Instituição |
+|-----------|--------------|
+| Análise e Desenvolvimento de Sistemas (Curso Modular ADS) | Basilides de Godoy (Leopoldina) |
+| Ensino Médio | Colégio Piritubano |
+
+---
+
+## 🛠️ Tecnologias em Estudo
+
+| 🌐 Front-End | ⚙️ Back-End | 🔌 Sistemas |
+|-------------|------------|-------------|
+| HTML5 | Python | Sistemas Embarcados |
+| CSS3 | C++ | Arduino |
+| Git & GitHub | Lógica de Programação | Automação |
+
+---
+
+## 📂 Sobre Este Repositório
+
+| 📁 Conteúdo |
+|------------|
+| Exercícios desenvolvidos durante as aulas |
+| Projetos acadêmicos |
+| Atividades práticas de programação |
+| Estudos de HTML e CSS |
+| Projetos em Python |
+| Exercícios em C++ |
+| Trabalhos envolvendo Sistemas Embarcados |
+
+---
+
+## 📫 Contato
+
+| 📬 Canal | 🔗 Informação |
+|----------|-------------|
+| Email | kakamartinsdonascimento@gmail.com |
+
+---
+
+## 📊 Objetivo
+
+| 🚀 Meta |
+|---------|
+| Compartilhar minha evolução na área de tecnologia |
+| Organizar atividades e projetos acadêmicos |
+| Construir um portfólio de aprendizado |
+| Desenvolver habilidades práticas em programação |
+
+---
+
+<div align="center">
+
+### ⭐ Obrigado por visitar meu repositório!
+
+*"A evolução acontece um código de cada vez."*
+
 </div>
-
----
-
-<div align= "Center">
-
-  `ADS · Basilides de Godoy · São Paulo · 17 anos`
-
-</div>
-
----
-
-<div align="left"
-
-## -Sobre Mim 👤-
-
-```
-Nome        : Cauã Martins do Nascimento
-Idade       : 17 anos
-Localização : São Paulo, SP — Brasil
-Formação    : ADS @ Basilides de Godoy (Leopoldina)
-              Ensino Médio @ Colégio Piritubano
-Contato     : kakamartinsdonascimento@gmail.com
-Status      : estudando · construindo · evoluindo
-```
-
----
-
-<div align="left"
-
-<h1>Sumario 🗂️</h1> 
-<ul>
-  <li>🌐 Redes de Computadores</li>
-  <li>💻 Programação</li>
-  <li>🔧 Hardware e Manutenção</li>
-  <li>📁 Estrutura do Repositório </li>
-  <li>📌 Progresso Geral</li>
-</ul>
-
-
-
-
-
